@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color:white;
+
+}
+a { 
+    color: white;
+}
+.side-bar{
+    width: 20vw;
+    height: 100vh;
+    position: fixed; 
+    background-color: red;
+}
+
+.side-bar h2{
+    color: white;
+    margin: 100px 0px 0px 40px;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.nav{
+    margin-top: 100px;
+}
+
+.nav ul{
+    list-style-type: none;
+    display: block;
+}
+
+.nav ul li{
+    margin-bottom: 25px;
+    width: 100%;
+    color: white;
+    padding: 9px 3px;
+     
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav ul li:hover{
+    background-color: white;
+    color: black;
+}
+
+.nav ul li:hover a { 
+    color: black
+}
+
+
+
+.container{
+    position: absolute;
+    margin-left: 20vw;
+    background-color: white;
+    height: 100%;
+}
+.container h1{
+    margin-top: 100px;
+    font-size: 70px;
+    margin-left: 50px;
+}
+
+.container h2{
+    font-size: 50px;
+    color: red;
+    padding-bottom: 30px;
+    border-bottom: 10px solid red;
+    width: 60px;
+    border-radius: 2px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+.img-showcase{
+    margin-left: 45px;
+    padding-bottom: 60px;
+}
+.img-showcase .img1{
+    display: inline-block;
+    width: 450px;
+    height: 400px;
+    padding: 5px  5px 0;
+    opacity: 0.5;
+}
+
+.img-showcase .img1:hover{
+    cursor: pointer;
+    opacity: 2;
+    transition: 0.5s;
+}
+
+.img-showcase img{
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+    padding: 5px  5px 0;
+    opacity: 0.5;
+}
+
+.img-showcase img:hover{
+    cursor: pointer;
+    opacity: 2;
+    transition: 0.5s;
+}
+
+.services{
+    padding-bottom: 30px;
+}
+.services p{
+    margin-left: 50px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.designers{
+    padding-bottom: 30px;
+}
+.designers p{
+    margin-left: 50px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.designers #special {
+    font-weight: bolder;
+    display: inline-block;
+}
+.img-container{
+    display: inline-block;
+    margin-left: 50px; 
+}
+.designers-pic{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(246, 241, 241);
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.designers-pic img{
+    width: 300px;
+    display: inline;
+    
+}
+.designers-pic h2{
+    font-size: 25px;
+    border-bottom: none;
+    width: 150px;
+    color: black;
+    margin-left: 15px;
+    font-weight: lighter;
+}
+
+
+.designers-pic h3{
+    font-size: 17px;
+    margin-left: 15px;
+    font-weight: lighter;
+    margin-top: -25px;
+    color: rgb(75, 74, 74);
+}
+
+.designers-pic p{
+    margin-left: 15px;
+}
+
+.packages p{
+    margin-left: 50px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.packages{
+    margin-bottom: 60px;
+}
+
+.contact p{
+    margin-left: 50px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.contact form{
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+.contact label {
+    font-size: 18px;
+}
+.contact form label input[type="text"], input[type="email"]{
+    display: block;
+    width: 67vw;
+    height: 35px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid rgb(158, 156, 156);
+}
+
+.contact form label input[type="button"]{
+    width: 67.4vw;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+}
+.contact form label input[type="button"]:hover{
+    background-color: rgb(246, 241, 241);
+    color: black;
+    cursor: pointer;
+}
+
+footer{
+    width: auto;
+    padding: 30px;
+    background-color: rgb(246, 241, 241);
+}
+footer p{
+    font-size: 18px;
+    text-align: right;
+}
